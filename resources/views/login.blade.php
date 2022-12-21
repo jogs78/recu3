@@ -1,6 +1,6 @@
 <html>
     <body>
-    <form method="post">
+    <form action="{{route('validar')}}" method="post">
         @csrf
         <label for="campo_usuario">
                 Usuario:

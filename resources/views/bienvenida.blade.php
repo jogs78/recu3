@@ -1,1 +1,1 @@
-HOLA {{Auth::user()->nombre}}
+HOLA {{Auth::user()->nombre}} puedes revisar tus conocidos <a href="{{route('conocidos.index')}}">aqui</a>
